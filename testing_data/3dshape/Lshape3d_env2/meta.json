@@ -1,0 +1,26 @@
+{
+  "shape_scale": 1.0,
+  "shape_obj": "/workspace/ntrl-demo/ntrl-demo/datasets/3dshape/Lshape3d.obj",
+  "env_obj": "/workspace/ntrl-demo/ntrl-demo/datasets/3dshape/env2.obj",
+  "margin": 0.05,
+  "offset": 0.02,
+  "rot_norm": 6.283185307179586,
+  "testing_data": true,
+  "yrot": false,
+  "two_d": false,
+  "shape_z_thickness": null,
+  "env_scale": 220.457,
+  "env_center": [
+    100.180961,
+    86.09025399999999,
+    -89.991084
+  ],
+  "num_tets": 12,
+  "rrt_verified": true,
+  "rrt_time_limit": 180.0,
+  "verify_env_points": 50000,
+  "verify_clouds": 3,
+  "repaired_rows": [
+    40
+  ]
+}

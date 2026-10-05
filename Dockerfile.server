@@ -1,0 +1,25 @@
+FROM pytorch/pytorch:2.2.2-cuda12.1-cudnn8-devel
+
+# RTX 3090 is Ampere (sm_86)
+ENV TORCH_CUDA_ARCH_LIST="8.6"
+ENV CUDA_HOME=/usr/local/cuda
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    x11-apps \
+    ffmpeg \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --no-cache-dir \
+    libigl \
+    pytorch_kinematics \
+    configargparse \
+    ezdxf \
+    shapely \
+    descartes \
+    plotly \
+    pymunk \
+    ur_rtde \
+    wandb
+
+WORKDIR /workspace

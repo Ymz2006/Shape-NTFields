@@ -1,0 +1,22 @@
+{
+  "shape_scale": 1.0,
+  "shape_obj": "/workspace/ntrl-demo/ntrl-demo/datasets/3dshape/Fshape3d_zup.obj",
+  "env_obj": "/workspace/ntrl-demo/ntrl-demo/datasets/3dshape/2denv3_zup.obj",
+  "margin": 0.05,
+  "offset": 0.02,
+  "rot_norm": 6.283185307179586,
+  "testing_data": true,
+  "yrot": false,
+  "two_d": true,
+  "shape_z_thickness": 0.01,
+  "env_scale": 350.0,
+  "env_center": [
+    12.747363000000007,
+    45.971829000000014,
+    0.0
+  ],
+  "num_tets": 24,
+  "rrt_verified": true,
+  "rrt_time_limit": 180.0,
+  "verify_env_points": 50000
+}
